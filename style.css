@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;500;700;800&display=swap');
+
+/* Global */
+*{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+/* Header */
+header{
+    padding: 50px 0;
+    background-image: url(https://www.miracosta.edu/student-services/math-learning-center/_media/header_mathlearningcenter_1549x560.jpeg);
+    background-size: cover;
+    border-bottom: 2px solid gray;
+}
+header h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/* Instructions */
+div.instructions{
+    margin: 30px 0;
+}
+div.instructions h2{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+div.instructions li{
+    margin: 10px 0;
+}
+
+/* Results table */
+table{
+    margin: auto;
+    width: 80%;
+}
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+th{
+    text-transform: uppercase;
+}
+
+/* Button */
+button{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 30%;
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+button:hover{
+    color:darkgray;
+}
